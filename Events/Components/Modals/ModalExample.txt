@@ -1,0 +1,16 @@
+const { ModalSubmitInteraction, Client } = require("discord.js");
+const { Color } = require("../../../config.json");
+
+module.exports = {
+  name: "interactionCreate",
+  /**
+   * @param {ModalSubmitInteraction} interaction
+   * @param {Client} client
+   */
+  async execute(interaction, client) {
+    if (interaction.isModalSubmit) {
+      if (interaction.customId === "") {
+      }
+    }
+  },
+};
