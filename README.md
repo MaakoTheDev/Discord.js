@@ -1,2 +1,3 @@
-# ReviewsBot
-Official ReviewsBot.js code.
+# Discord.js Handler
+A Discord.js v14 Handler!
+
